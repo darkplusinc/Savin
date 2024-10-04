@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WATHSAVIN blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="icon" type="Image/png" href="asset/img/IMG_7600 copy.jpg">
+    <link rel="stylesheet" href="asset/css/Frontpage.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">William Win [WATH SAVIN]</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center text-white"
+        style="background-image:url('asset/img/1200x400 ++ copy.png'); padding: 200px 0;">
+        <header id="home" class="hero-section">
+            <div class="container text-center text-dark">
+                <h1 class="display-4 text-dark  ">William Win</h1>
+                <p class="lead text-dark">Web Developer | Designer | Problem Solver</p>
+                <button id="learnMoreBtn" class="btn btn-primary mt-4">Learn More</button>
+            </div>
+        </header>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>I'm a full-stack developer with a passion for building interactive and responsive websites. I
+                        specialize in JavaScript frameworks and love turning complex problems into simple, elegant
+                        solutions.</p>
+                    <ul id="skillsList">
+                        <!-- Skills will be inserted here by JavaScript -->
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="asset/img/HOME_BANNER_SLIDE-COVER_V2_9d0892fe-9cc0-461b-b32e-ea58c568be65.webp"
+                        class="img-fluid rounded-circle" alt="Your Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">My Projects</h2>
+            <div class="row" id="projectGallery">
+                <!-- Projects will be dynamically inserted by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Get In Touch</h2>
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light">
+        <div class="container text-center">
+            <div class="card-body mt-5">
+                <div class="container text-center text-ligth">
+                    <h2 class="h2-followus-SM">Follow Us on Social Media</h2>
+                    <div class="social-buttons">
+                        <!-- Facebook Button -->
+                        <a href="" target="_blank"
+                            class="btn btn-primary">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+
+                        <!-- Twitter Button -->
+                        <a href="   " target="_blank" class="btn btn-info">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+
+                        <!-- Instagram Button -->
+                        <a href="https://www.instagram.com" target="_blank" class="btn btn-danger">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+
+                        <!-- LinkedIn Button -->
+                        
+
+                        <!-- YouTube Button -->
+                        <a href="https://www.youtube.com/results?search_query=pewtoo+gaming" target="_blank" class="btn btn-danger">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+            
+        </div>
+    </footer>
+
+    <!-- JavaScript and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/java/index.js"></script>
+
+</body>
+
+</html>
